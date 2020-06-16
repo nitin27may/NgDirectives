@@ -119,6 +119,46 @@
           }
         }
       }
+    },
+    "NgDirectives": {
+      "projectType": "library",
+      "root": "projects/ng-directives",
+      "sourceRoot": "projects/ng-directives/src",
+      "prefix": "NgDir",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-directives/tsconfig.lib.json",
+            "project": "projects/ng-directives/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-directives/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-directives/src/test.ts",
+            "tsConfig": "projects/ng-directives/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-directives/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-directives/tsconfig.lib.json",
+              "projects/ng-directives/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "NgDirectivesLibrary"
 }

@@ -1,0 +1,22 @@
+{
+  "name": "ng-directives",
+  "version": "0.0.1",
+  "description": "A collection for angular directives",
+  "author": "Nitin Singh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitin27may/NgDirectives.git"
+  },
+  "homepage": "https://github.com/nitin27may/NgDirectives",
+  "keywords": [
+    "angular",
+    "directive",
+    "number-only"
+  ],
+  "LICENSE": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "tslib": "^1.10.0"
+  }
+}
