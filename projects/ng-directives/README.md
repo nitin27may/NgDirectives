@@ -1,22 +1,10 @@
 # NgDirectives
 
-This library is Ivy Compatible and is tested against an Angular 9 app. 
+A collection of `directives` which will change the appearance or behavior of html elements. We have considered common scenarios, created directives for it and bundled all directives as NPM package.  This library is Ivy Compatible and is tested against an Angular 9 app. 
 
-* A collection of `directives` to be used with Angular app to give additional functionality which will help to avoid wrong inputs
 * It is developed using `Angular >=9.0.0` and its newly introduced `ng g library` schematics.
-* This library is part of MatTypeahead project and it is generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+* This library is part of NgDirectives project and it is generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 * Library location: `projects/ng-directives` directory of this repository.
-
-## Examples/Demo
-
-* A simple Example can be found under `src/app` directory of this repository. 
-
-## Installation
-
-`npm i ng-directives`
-
-****
-`import { NgDirectivesModule } from "ng-directives";`<br>
 
 ## Directive List 
 
@@ -25,6 +13,14 @@ This library is Ivy Compatible and is tested against an Angular 9 app.
 | `ngDirNumberOnly` | Allow only number in input (on type and paste)  | 
 
 
+
+## Examples/Demo
+
+* A simple Example can be found under `src/app` directory of this repository. 
+
+## Installation
+
+`npm i ng-directives`
 
 ## Usage
 

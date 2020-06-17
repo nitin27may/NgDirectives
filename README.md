@@ -4,7 +4,7 @@ This library is Ivy Compatible and is tested against an Angular 9 app.
 
 * A collection of `directives` to be used with Angular app to give additional functionality which will help to avoid wrong inputs
 * It is developed using `Angular >=9.0.0` and its newly introduced `ng g library` schematics.
-* This library is part of MatTypeahead project and it is generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+* This library is part of NgDirectives project and it is generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 * Library location: `projects/ng-directives` directory of this repository.
 
 ## Examples/Demo
@@ -61,9 +61,7 @@ import { Component } from "@angular/core";
     <label for="age">Age</label>
     <input ngDirNumberOnly type="text" class="form-control" id="age">
   </div>
-</form>
-
-`,
+</form>`,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
