@@ -17,7 +17,13 @@ This library is Ivy Compatible and is tested against an Angular 9 app.
 
 ****
 `import { NgDirectivesModule } from "ng-directives";`<br>
-`selector: numberOnly` for number only validation
+
+## Directive List 
+
+| selector          |                 Description                     |  
+| ------------------| :---------------------------------------------: |
+| `ngDirNumberOnly` | Allow only number in input (on type and paste)  | 
+
 
 
 ## Usage
@@ -53,7 +59,7 @@ import { Component } from "@angular/core";
   template: `<form>
   <div class="form-group">
     <label for="age">Age</label>
-    <input numberOnly type="text" class="form-control" id="age">
+    <input ngDirNumberOnly type="text" class="form-control" id="age">
   </div>
 </form>
 
