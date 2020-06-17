@@ -57,9 +57,7 @@ import { Component } from "@angular/core";
     <label for="age">Age</label>
     <input ngDirNumberOnly type="text" class="form-control" id="age">
   </div>
-</form>
-
-`,
+</form>`,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {

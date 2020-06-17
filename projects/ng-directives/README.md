@@ -1,6 +1,10 @@
 # NgDirectives
 
+<<<<<<< HEAD
 A collection of `directives` which will change the appearance or behavior of html elements. We have considered common scenarios, created directives for it and bundled all directives as NPM package.  This library is Ivy Compatible and is tested against an Angular 8, 9 app. 
+=======
+A collection of `directives` which will change the appearance or behavior of html elements. We have considered common scenarios, created directives for it and bundled all directives as NPM package.  This library is Ivy Compatible and is tested against an Angular 9 app. 
+>>>>>>> ef8c454168de269bc90937601da4c63e731b1657
 
 * It is developed using `Angular >=9.0.0` and its newly introduced `ng g library` schematics.
 * This library is part of NgDirectives project and it is generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
